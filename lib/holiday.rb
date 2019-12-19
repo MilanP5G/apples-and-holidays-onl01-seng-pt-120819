@@ -100,8 +100,8 @@ def all_holidays_with_bbq(holiday_hash)
     time.collect do |day, supply|
       if supply.include? "BBQ"
          day
-      end 
-    end.flatten
+      end.flatten
+    end
   end 
   
   
